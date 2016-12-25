@@ -22,7 +22,6 @@ hpc$Date <- as.Date(hpc$Date, format = "%d/%m/%Y", tz = "")
 hpc$DateTime <- as.POSIXct(paste(hpc$Date, hpc$Time), format = "%Y-%m-%d %H:%M:%S")
 
 
-
 # Plot 1 ####
 png(filename = "plot1.png", width = 480, height = 480, units="px")
 
